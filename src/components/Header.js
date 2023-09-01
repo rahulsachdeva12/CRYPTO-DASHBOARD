@@ -9,9 +9,6 @@ export class Header extends Component {
         };
       }
     
-      handleCurrencyChange = (currencyType) => {
-        this.props.handleCurrencyChange(currencyType);
-      };
     render() {
         return (
             <div>
